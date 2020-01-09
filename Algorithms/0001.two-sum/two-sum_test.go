@@ -1,9 +1,8 @@
 package problem0001
 
 import (
-	"testing"
-
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 type para struct {
@@ -39,7 +38,7 @@ func Test_OK(t *testing.T) {
 				two: 8,
 			},
 			a: ans{
-				one: nil,
+				one: []int{},
 			},
 		},
 	}
